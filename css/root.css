@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub&family=League+Spartan:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --primary-1:#FFBE34;
+    --primary-2:#091242;
+    --secondary:#F3A22A;
+    --sec-var:#F3A22A;
+    --Heading:#1C1F35;
+    --paragraph: #666C89;
+    --grey:#F4F4F4;
+    --white:#ffffff;
+}
+html{
+    font-size: 59.5%;
+    scroll-behavior: smooth;
+}
+.f-krub{
+    font-family: 'Krub';
+}
+.f-rubik{
+    font-family: 'Rubik';
+}
+.fs-25{
+    font-size: 2.5rem;
+}
+.fs-10{
+    font-size: 1rem;
+}
+.fs-11{
+    font-size: 1.1rem;
+}
+.fs-12{
+    font-size: 1.2rem;
+}
+.fs-13{
+    font-size: 1.3rem;
+}
+.fs-14{
+    font-size: 1.4rem;
+}
+.fs-15{
+    font-size: 1.5rem;
+}
+.fs-16{
+    font-size: 1.6rem;
+}
+.fs-17{
+    font-size: 1.7rem;
+}
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-19{
+    font-size: 1.9rem;
+}
+.fs-20{
+    font-size: 2.0rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-blue{
+    color:var(--primary) ;
+}
+.text-red{
+    color: var(--accent-5);
+}
+.d-none{
+    display: none !important
+    ;
+}
+.text-body-1{
+    color: var(--body-1);
+}
+.text-body-2{
+    color: var(--body-2);
+}
+.over-x-hide{
+    overflow-x: hidden !important;
+}
+.tag{
+    background-color: 
+    
+rgba(232, 232, 232, 0.5);
+    width: fit-content;
+    padding:5px 7px  ;
+    border-left: 5px solid var(--primary-1);
+    font-size: 1.5rem;
+   font-family: 'Rubik';
+   color: 
+   rgba(28, 31, 53, 1);
+   font-weight: 400;
+}
+.d-flex{
+    display: flex;
+    column-gap: 16px;
+    row-gap: 25px;
+    align-items: center;
+    color: #1C1F35;
+font-family: Rubik;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ans-active{
+   height: 100% !important;
+}
+.ans-90{
+    rotate: 90deg;
+    color: #FFBE34;
+}
+.d-flex :nth-child(1) > img{
+    height: 40px;
+}
+.d-flex :nth-child(2) > p{
+   font-size: 2rem;
+}
+.d-inline{
+    display: flex !important;
+}
+.contact-infor{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    .con{
+        display: flex;
+       
+        align-items: center;
+        column-gap: 20px;
+        p{
+                    color: #FFF;
+        font-family: Krub;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 135.023%; /* 18.903px */
+        }
+    }
+}
+.yel{
+    color: #FFBE34 !important;
+}
+.card-2{
+    background-color: #091242 !important;
+    color: white !important;
+}
+.card-2 > div p{
+    color: white !important;
+}
+.card-2 > div h4,.card-2 > div h4 span {
+    color: white !important;
+}
